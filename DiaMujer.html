@@ -39,7 +39,7 @@
                 /* Color de fondo para el modo oscuro */
             }
 
-            a{
+            a {
                 color: #fff !important;
             }
 
@@ -52,38 +52,76 @@
             /* Agrega otros estilos específicos para el modo oscuro aquí */
         }
 
-        .footer {
-            background: url(img/BgFooter.png);
-            /* Color de fondo del footer */
-            background-size: cover;
-            padding: 50px 20px 20px 10px;
+        .header {
+            background: url(img/BgHeader.png) no-repeat center center;
+            background-size: 100% auto;
+            padding: 10px 20px;
             font-family: 'Lato', sans-serif;
-            /* Espaciado interno del footer */
+        }
+
+        .logo-header {
+            width: 50%;
+            text-align: left;
+        }
+
+        .logo-header img {
+            display: inline-block;
+            vertical-align: middle;
+            width: 75px;
+            margin-right: 10px;
+        }
+
+        .slogan p {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+            font-size: 13px;
+            font-weight: 600;
         }
     </style>
 </head>
 
 <body style="margin: 0; padding: 0; font-family: Arial, sans-serif;">
     <table align="center" cellpadding="0" cellspacing="0" width="650" style="border-collapse: collapse;">
+        <!-- Header -->
+        <tr>
+            <td colspan="2" class="header">
+                <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="50%" align="left" class="logo-header">
+                            <img src="img/LogoHeader.png" alt="Logo">
+                        </td>
+                        <td width="50%" align="right" class="slogan">
+                            <p>Un amor único</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- Imagen de encabezado -->
         <tr>
             <td align="center">
                 <img src="img/Encabezado.png" alt="Encabezado" style="width: 100%;">
             </td>
         </tr>
+        <!-- Contenido -->
         <tr>
             <td align="center" style="padding: 0px 20px;">
                 <p style="font-size: 18px; line-height: 24px; text-align: center;">En el Día de la Mujer, reconocemos a
                     todas las mujeres valientes y empoderadas que con su fuerza y determinación, impulsan un futuro
                     brillante para quienes las rodean.</p>
-                <p style="font-size: 18px; line-height: 24px; text-align: center; font-weight: bold;">¡Gracias por ser inspiración y motor
+                <p style="font-size: 18px; line-height: 24px; text-align: center; font-weight: bold;">¡Gracias por ser
+                    inspiración y motor
                     de cambio para todos!</p>
             </td>
         </tr>
+        <!-- Imagen de equipo -->
         <tr>
             <td align="right">
                 <img src="img/EquipoBayport.png" alt="Segunda imagen" style="width: 50%;">
             </td>
         </tr>
+        <!-- Footer -->
         <tr>
             <td align="center" class="footer">
                 <table cellpadding="0" cellspacing="0" width="100%">
@@ -93,15 +131,20 @@
                                 style="text-decoration: none; color: inherit; padding-left: 20px; font-weight: 700;">www.bayportcolombia.com</a>
                         </td>
                         <td width="50%" align="right">
-                            <a href="https://www.facebook.com/bayportcolombia/" style="text-decoration: none; color: inherit; margin-right: 5px;"><img
+                            <a href="https://www.facebook.com/bayportcolombia/"
+                                style="text-decoration: none; color: inherit; margin-right: 5px;"><img
                                     src="img/Facebook.png" alt="Facebook" style="width: 35px;"></a>
-                            <a href="https://twitter.com/BayportColombia" style="text-decoration: none; color: inherit; margin-right: 5px;"><img
-                                    src="img/X.png" alt="Facebook" style="width: 35px;"></a>
-                            <a href="https://www.instagram.com/bayportcolombia/" style="text-decoration: none; color: inherit; margin-right: 5px;"><img
+                            <a href="https://twitter.com/BayportColombia"
+                                style="text-decoration: none; color: inherit; margin-right: 5px;"><img src="img/X.png"
+                                    alt="Facebook" style="width: 35px;"></a>
+                            <a href="https://www.instagram.com/bayportcolombia/"
+                                style="text-decoration: none; color: inherit; margin-right: 5px;"><img
                                     src="img/Instagram.png" alt="Instagram" style="width: 35px;"></a>
-                            <a href="https://www.linkedin.com/company/bayportcolombia/mycompany/verification/" style="text-decoration: none; color: inherit; margin-right: 5px;"><img
+                            <a href="https://www.linkedin.com/company/bayportcolombia/mycompany/verification/"
+                                style="text-decoration: none; color: inherit; margin-right: 5px;"><img
                                     src="img/Linkedin.png" alt="LinkedIn" style="width: 35px;"></a>
-                            <a href="https://www.youtube.com/channel/UCXYKv8n8RsPqKlxxC6bT2Xw" style="text-decoration: none; color: inherit; margin-right: 5px;"><img
+                            <a href="https://www.youtube.com/channel/UCXYKv8n8RsPqKlxxC6bT2Xw"
+                                style="text-decoration: none; color: inherit; margin-right: 5px;"><img
                                     src="img/Youtube.png" alt="YouTube" style="width: 35px;"></a>
                         </td>
                     </tr>
@@ -111,9 +154,6 @@
                     derechos reservados</p>
             </td>
         </tr>
-    </table>
-    </td>
-    </tr>
     </table>
 </body>
 
